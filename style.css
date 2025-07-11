@@ -1,0 +1,190 @@
+*{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+
+
+
+
+.top{
+    display: inline-block;
+}
+.down{
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+}
+.con{
+  background-color: white;
+  padding: 10px;
+  position: relative;
+  position:sticky;
+  top: 0px;
+  font-size: x-large;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  z-index: +1;
+}
+.first{
+    text-decoration: none;
+    padding: 5px;
+
+}
+.imagecon{
+ width: 100%;
+ margin:auto;
+ position:relative;
+}
+.madhav{
+    width: 100%;
+    margin-left: 0;
+   
+}
+img{
+    width: 100%;
+}
+.text{
+    width: 70px;
+    position:absolute;
+    top: 53%;
+    left: 40%;
+    background-color: black;
+    color: white;
+    border: 0;
+    font-size: xx-large ;
+    
+    padding: 8px 16px;
+    
+    
+}
+
+.arc{
+    width: 70px;
+    position:absolute;
+    top: 53%;
+    left: 44%;
+    border: 0;
+    font-size: xx-large ;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    
+    padding: 8px 16px;
+    
+}
+
+ 
+
+.optimus{
+    width: 95vw;
+    position: relative;
+    margin: auto;
+    margin-left: 70px;
+
+}
+
+
+
+
+.item-1, .item-2, .item-3, .item-4, .item-5, .item-6, .item-7, .item-8{
+    width: 22.5%;
+    display: inline-block;
+    border: 2px ;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    position:relative;
+}
+.p1,.p2,.p3,.p4,.p5,.p6,.p7,.p8{
+  color: white;
+  background-color: black;
+  position:absolute;
+  padding: 8px;
+  top: 0;
+}
+
+.para{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+.content{
+    margin: auto;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.profiles{
+    width: 90%;
+    margin: auto;
+
+}
+.sub1, .sub2, .sub3, .sub4{
+    width: 22.5%;
+    display: inline-block;
+    border: 2px;
+    margin-left: 10px;
+} 
+
+.role{
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    width: 100%;
+    font-size: x-large;
+    padding: 10px;
+    border: 0;
+
+}
+button:hover {
+    background-color: silver; 
+    transform: scale(1.03);
+}
+
+ form {
+      width: 90vw;
+      box-sizing: border-box;
+      padding: 16px;
+    }
+
+    input{
+      display: block;
+      width: 100%;
+      margin-bottom: 12px;
+      padding: 8px;
+      font-size: 16px;
+    }
+
+    .button2{
+        background-color: black;
+        color: white;
+        width: 200px;
+        font-size: medium;
+
+    }
+
+    .imgc{
+        width: 90vw;
+    }
+    
+    .last{
+        color: white;
+        background-color: black;
+        text-align: center;
+        padding: 50px;
+        font-size: large;
+    }
+
+    .end{
+        color: white;
+        text-decoration: none;
+        transition: color o.3s ease;
+
+    }
+
+    .end:hover{
+        color: green;
+    }
+    
+
